@@ -10,6 +10,7 @@
 		4918048C1E38DA3500F0A33D /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4918048B1E38DA3500F0A33D /* CreditCard.swift */; };
 		495D7BDF1E6AC562005608CB /* Accountant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495D7BDE1E6AC562005608CB /* Accountant.swift */; };
 		498E78AE1E3353B2003E74F8 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498E78AD1E3353B2003E74F8 /* Asset.swift */; };
+		49BFA92F1E6AD40D00ACAE2B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BFA92E1E6AD40D00ACAE2B /* Person.swift */; };
 		49E054C81E2F468800AA612F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E054C71E2F468800AA612F /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		4918048B1E38DA3500F0A33D /* CreditCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
 		495D7BDE1E6AC562005608CB /* Accountant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accountant.swift; sourceTree = "<group>"; };
 		498E78AD1E3353B2003E74F8 /* Asset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		49BFA92E1E6AD40D00ACAE2B /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		49E054C41E2F468800AA612F /* MemoryManagement */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MemoryManagement; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E054C71E2F468800AA612F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +69,7 @@
 				498E78AD1E3353B2003E74F8 /* Asset.swift */,
 				4918048B1E38DA3500F0A33D /* CreditCard.swift */,
 				495D7BDE1E6AC562005608CB /* Accountant.swift */,
+				49BFA92E1E6AD40D00ACAE2B /* Person.swift */,
 			);
 			path = MemoryManagement;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BFA92F1E6AD40D00ACAE2B /* Person.swift in Sources */,
 				4918048C1E38DA3500F0A33D /* CreditCard.swift in Sources */,
 				498E78AE1E3353B2003E74F8 /* Asset.swift in Sources */,
 				49E054C81E2F468800AA612F /* main.swift in Sources */,

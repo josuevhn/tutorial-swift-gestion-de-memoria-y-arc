@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Accountant {
+class Accountant: CustomStringConvertible {
     
     typealias NetWorthChanged = (Double) -> ()
     
@@ -23,6 +23,18 @@ class Accountant {
         } // didSet
         
     } // netWorth
+    
+    deinit {
+        
+        print("\nLa memoria ocupada por el objeto \(self) está siendo liberada.")
+        
+    } // deinit
+    
+    var description: String {
+        
+        return "Accountant"
+        
+    } // description
     
     func gainedNewAsset(asset: Asset) {
         

@@ -8,48 +8,9 @@
 
 import Foundation
 
-class Person: CustomStringConvertible {
-    
-    let name: String
-    var assets = [Asset]()
-    var creditCards = [CreditCard?]()
-
-    init (name: String) {
-        
-        self.name = name
-        
-    } // init
-    
-    deinit {
-        
-        print("\nLa memoria ocupada por el objeto \(self) está siendo liberada.")
-        
-    } // deinit
-    
-    var description: String {
-        
-        return name
-        
-    } // description
-    
-    func takeOwnershipOfAsset(asset: Asset) {
-        
-        asset.owner = self
-        assets.append(asset)
-        
-    } // takeOwnershipOfAsset
-    
-    func takeOwnershipOfCreditCard(myCreditCard: CreditCard) {
-
-        creditCards.append(myCreditCard)
-        
-    } // takeOwnershipOfAsset
-
-} // Person
-
 var gochi: Person? = Person(name: "Gochi")
 
-print("\nObjeto \(gochi!) creado.")
+print("\nObjeto \(gochi!) creado.\n")
 
 var masterCard: CreditCard? = CreditCard(owner: gochi!)
 
@@ -73,9 +34,3 @@ hat = nil
 backpack = nil
 
 print()
-
-
-
-
-
-
